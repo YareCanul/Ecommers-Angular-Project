@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { PostsComponent } from './components/posts/posts.component';
 import { FilterPipe } from './pipes/filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './components/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     PostsComponent,
-    FilterPipe
+    FilterPipe,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
