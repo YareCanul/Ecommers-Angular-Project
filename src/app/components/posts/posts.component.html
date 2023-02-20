@@ -91,7 +91,6 @@
 </div>
 <div class="col-9">
 <div class="container">
-The Web Content in detail.
 </div>
 <div class ="container">
 <p> </p>
@@ -101,9 +100,21 @@ The Web Content in detail.
         <div class="form-group">
             <input type="text" class="form-control" name= " filterPost" placeholder="Search.." [(ngModel)]="filterPost">
                </div>
-               <button mat-stroked-button color="warn">
-                stroked
-               </button>
+               <table class="table table-striped">
+                <thead>
+                    <tr>
+             <th> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
+                Marca
+              </a></th> 
+              <th> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
+                Descuento
+              </a></th>
+              <th><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
+                Precio
+              </a></th>
+            </tr>
+              </thead>
+            </table>
     </div>
    </div>
    <div class="row">
