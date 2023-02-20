@@ -14,7 +14,7 @@ filterPost = '';
     'producto': 'Computadora Portatil',
     'precio': '$23,000',
     'marca' : 'HP',
-    'descuento': '20%'
+    'descuento': '30%'
   },
   {
     'id': 2,
