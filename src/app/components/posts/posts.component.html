@@ -94,7 +94,7 @@
 </div>
 <div class ="container">
 <p> </p>
-<h1>Listado</h1>
+<h1>MarketPlace</h1>
 <div class="row">
     <div class="col">
         <div class="form-group">
@@ -106,7 +106,7 @@
              <th> 
                  <!--<select [(ngModel)]="selectedMarca"></select>-- -->
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn- dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Marca
                     </button>
                     
@@ -120,12 +120,34 @@
                     </div>
                   </div>
              </th> 
-              <th> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
-                Descuento
-              </a></th>
-              <th><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
-                Precio
-              </a></th>
+              <th>   <div class="btn-group">
+                <button type="button" class="btn btn- dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Descuento
+                </button>
+                
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Hp</a>
+                  <a class="dropdown-item" href="#">Huawei</a>
+                  <a class="dropdown-item" href="#">Italica </a>
+                  <a class="dropdown-item" href="#">Zara</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div></th>
+              <th>  <div class="btn-group">
+                <button type="button" class="btn btn- dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Precio
+                </button>
+                
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Hp</a>
+                  <a class="dropdown-item" href="#">Huawei</a>
+                  <a class="dropdown-item" href="#">Italica </a>
+                  <a class="dropdown-item" href="#">Zara</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div></th>
             </tr>
               </thead>
             </table>
@@ -163,5 +185,5 @@
 </html>
 <div class="container">
     <br>
-    <app-paginacion (changePage)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" |></app-paginacion>
+    <app-paginacion (changePage)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" ></app-paginacion>
 
