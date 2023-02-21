@@ -41,10 +41,18 @@ filterPost = '';
   {
     'id': 5,
     'producto': 'Pantalon',
-    'Precio': '$700',
-    'Marca' : 'Zara',
-    'Descuento': '20%'
+    'precio': '$1000',
+    'marca' : 'Zara',
+    'descuento': '15%'
+  },
+  {
+    'id': 6,
+    'producto': 'Moto 110',
+    'precio': '$20,000',
+    'marca' : 'Italica',
+    'descuento': '10%'
   }
+  
 
  ]
  ngOnInit() {
