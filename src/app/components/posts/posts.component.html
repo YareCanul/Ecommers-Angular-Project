@@ -130,7 +130,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let post of post | filter:filterPost">
+            <tr *ngFor="let post of post | filter:filterPost ">
                 <td>{{post.id}}</td>
                 <td>{{post.producto}}</td>
                 <td>{{post.marca}}</td>
@@ -149,5 +149,5 @@
 </html>
 <div class="container">
     <br>
-    <app-paginacion></app-paginacion>
+    <app-paginacion (changePage)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" |></app-paginacion>
 
