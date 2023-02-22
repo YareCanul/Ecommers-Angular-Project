@@ -157,27 +157,28 @@
    </div>
    <div class="row">
   <div class="col">
-    <table class="table table-striped">
-        <thead>
-            <tr >
-                <th>id</th>
-                <th>producto</th>
-                <th>marca</th>
-                <th>precio</th>
-                <th>descuento</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let post of post | filter:filterPost ">
-                <td>{{post.id}}</td>
-                <td>{{post.producto}}</td>
-                <td>{{post.marca}}</td>
-                <td>{{post.precio}}</td>
-                <td>{{post.descuento}}</td>
-            </tr>
-        </tbody>
-    </table>
     </div>
+    <div class="container">
+      <div id="message"></div>
+      <div class="row mt-2 pb-3">
+        <tr *ngFor="let post of post | filter:filterPost ">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
+          <div class="card-deck">
+            <div class="card p-2 border-secondary mb-2">
+              <img src="{{post.imagen}}" class="card-img-top" background-size >
+              <div class="card-body p-1">
+                <h4 class="card-title text-center text-info"><td>{{post.producto}}</td> </h4>
+                <p class="card-text text-center text-danger"><td>{{post.precio}}</td></p>
+                <p class="card-text text-center text-danger"><td>{{post.marca}}</td></p>
+                <p class="card-text text-center text-danger"><td>{{post.descuento}}</td></p>
+  
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
    </div>
    <app-paginacion (pageChange)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" ></app-paginacion>
 </div>

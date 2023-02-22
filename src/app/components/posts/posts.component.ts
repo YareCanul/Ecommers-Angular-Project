@@ -13,6 +13,7 @@ filterPost = '';
   {
     'id': 1,
     'producto': 'Computadora Portatil',
+    'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
     'descuento': '30%'
@@ -20,6 +21,7 @@ filterPost = '';
   {
     'id': 2,
     'producto': 'Moto Semiautomatica',
+    'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
     'descuento': '10%'
@@ -27,6 +29,7 @@ filterPost = '';
   {
     'id': 3,
     'producto': 'Computadora Portatil',
+    'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
     'descuento': '25%'
@@ -34,6 +37,7 @@ filterPost = '';
   {
     'id': 4,
     'producto': 'Camisa Rayas',
+    'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
     'descuento': '10%'
@@ -41,6 +45,7 @@ filterPost = '';
   {
     'id': 5,
     'producto': 'Pantalon',
+    'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
     'descuento': '15%'
@@ -48,6 +53,7 @@ filterPost = '';
   {
     'id': 6,
     'producto': 'Moto 110',
+    'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
     'descuento': '10%'
