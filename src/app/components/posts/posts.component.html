@@ -187,11 +187,12 @@
             <div class="card p-2 border-secondary mb-2">
               <img src="{{post.imagen}}" class="card-img-top" background-size >
               <div class="card-body p-1">
-                <h4 class="card-title text-center text-info"><td>{{post.producto}}</td> </h4>
-                <p class="card-text text-center text-danger"><td>{{post.precio}}</td></p>
-                <p class="card-text text-center text-danger"><td>Marca: {{post.marca}}</td></p>
-                <p class="card-text text-center text-danger"><td>{{post.descuento}} OFF</td></p>
-                <button class="btn btn-primary btn-block addItemBtn" ><i class="fas fa-cart-plus" ></i>&nbsp;&nbsp;Agregar carrito</button >
+                <h4 class="card-title text-center text-info"><font [size]="4"><td>{{post.producto}}</td></font> </h4>
+                <p  class="card-text text-center text-black" ><font [size]="3"><td>{{post.precio}}</td></font></p>
+                <p class="card-text text-center text-black"><font size="2">
+                  <td>Marca: {{post.marca}}</td></font></p>
+                <p class="card-text text-center text-danger"><font [size]="2"><td>{{post.descuento}} OFF</td></font></p>
+                <button class="btn btn-primary btn-block addItemBtn" ><i class="fas fa-cart-plus" ></i>&nbsp;&nbsp;<font [size]="2"><strong>Agregar carrito</strong></font></button >
              </div> 
              </div>
             </div>
