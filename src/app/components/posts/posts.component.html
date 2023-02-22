@@ -104,9 +104,15 @@
                 <thead>
                     <tr>
              <th> 
-                 <!--<select [(ngModel)]="selectedMarca"></select>-- -->
-                <div class="btn-group">
-                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             
+              <select [(ngModel)]='filterPost'(ngModelChange)='($event)'>
+                <option *ngFor='let post of post'[value]="filterPost" ></option>
+
+              </select>
+
+                <!---<div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle"name ="filterPostSelected" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" (ngModelChange)="filterPost">
+                      <option *ngFor='let post of post'[value]="filterPost" ></option>
                       Marca
                     </button>
                     
@@ -119,6 +125,7 @@
                       <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                   </div>
+                  --->
              </th> 
               <th> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" color="black">
                 Descuento
@@ -163,5 +170,5 @@
 </html>
 <div class="container">
     <br>
-    <app-paginacion (changePage)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" |></app-paginacion>
+    <app-paginacion></app-paginacion>
 
