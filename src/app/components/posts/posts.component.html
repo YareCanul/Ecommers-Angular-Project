@@ -110,11 +110,14 @@
                     
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Hp</a>
-                      <a class="dropdown-item" href="#">Huawei</a>
-                      <a class="dropdown-item" href="#">Italica </a>
-                      <a class="dropdown-item" href="#">Zara</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
+                      <a class="dropdown-item" href="#">Huawei</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Italica </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Zara</a>
+                      
+                     
                     </div>
                   </div>
              </th> 
@@ -125,24 +128,26 @@
                 
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">10%</a>
-                  <a class="dropdown-item" href="#">20%</a>
-                  <a class="dropdown-item" href="#">30% </a>
-                  <a class="dropdown-item" href="#">40% </a>
-                  <a class="dropdown-item" href="#">50% </a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+                  <a class="dropdown-item" href="#">20%</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">30% </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">40% </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">50% </a>
+               
                 </div>
               </div></th>
               <th>  <div class="btn-group">
                 <button type="button" class="btn btn- dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Precio
                 </button>
-                
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#">Menor a mayor precio</a>
-                  <a class="dropdown-item" href="#">Mayor a menor precio</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+                  <a class="dropdown-item" href="#">Mayor a menor precio</a>
+                 
                 </div>
               </div></th>
             </tr>
@@ -174,10 +179,11 @@
     </table>
     </div>
    </div>
+   <app-paginacion (pageChange)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" ></app-paginacion>
 </div>
 </div>
 </div>
-<app-paginacion (pageChange)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" ></app-paginacion>
+
 
 </body>
 </html>
