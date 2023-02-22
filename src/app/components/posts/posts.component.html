@@ -182,8 +182,14 @@
       <div class="row mt-2 pb-3" >
         
         <tr *ngFor="let post of post | filter:filterPost ">
+          
         <div class="col-sm-6 col-md-4 col-lg-3 mb-2" >
           <div class="card-deck">
+            <!--Paginacion
+               <div *ngFor="let item of post; let i=index"> 
+              <div scope="row">{{i}} </div> 
+              <div>{{item.marca}}</div>-->
+
             <div class="card p-2 border-secondary mb-2">
               <img src="{{post.imagen}}" class="card-img-top" background-size >
               <div class="card-body p-1">
@@ -195,6 +201,7 @@
                 <button class="btn btn-primary btn-block addItemBtn" ><i class="fas fa-cart-plus" ></i>&nbsp;&nbsp;<font [size]="2"><strong>Agregar carrito</strong></font></button >
              </div> 
              </div>
+             
             </div>
            </div>
             
@@ -206,6 +213,7 @@
    </div> 
  
    <!-- Paginación-->
+   >
         
    <app-paginacion (pageChange)="page = 1" previousLabel="Anterior" nextLabel="Siguiente" ></app-paginacion>
 </div>
