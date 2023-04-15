@@ -191,7 +191,7 @@
             <div id="message"></div>
             <div class="row mt-2 pb-3">
 
-              <tr *ngFor="let post of post | paginate:{ itemsPerPage:12, currentPage:page}| filter:filterPost ">
+              <tr *ngFor="let post of post | paginate:{ itemsPerPage:4, currentPage:page}| filter:filterPost ">
 
 
                 <div class="col-sm-6 col-md-4 col-lg-3 mb-2">
@@ -242,8 +242,11 @@
 
         <!-- Paginación-->
         >
-
-        <app-paginacion (pageChange)="page = 0" previousLabel="Anterior" nextLabel="Siguiente"></app-paginacion>
+       <pagination-controls
+       previousLabel="Anterior"
+       nextLabel="Siguiente"
+       (pageChange)="page=$event">
+       </pagination-controls>
       </div>
     </div>
   </div>
