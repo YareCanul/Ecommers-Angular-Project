@@ -1,19 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-posts',
   templateUrl: './posts.component.html',
   styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
+  title='angular-dropdownlist';
+  dropdownListFilterType:String='EndWitch';
 [x: string]: any;
- 
+ public dataFields:Object={groupBy:'Category'};
   constructor(){}
 filterPost = '';
  post = [
   {
     'id': 1,
     'producto': 'Computadora Portatil',
+    'category': 'hp',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -22,6 +26,7 @@ filterPost = '';
   {
     'id': 2,
     'producto': 'Moto Semiautomatica',
+    'category':'italika',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -30,6 +35,7 @@ filterPost = '';
   {
     'id': 3,
     'producto': 'Computadora Portatil',
+    'category':'Huawei',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -38,6 +44,7 @@ filterPost = '';
   {
     'id': 4,
     'producto': 'Camisa Rayas',
+    'category':'zara',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -46,6 +53,7 @@ filterPost = '';
   {
     'id': 5,
     'producto': 'Pantalon',
+    'category':'zara',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -54,6 +62,7 @@ filterPost = '';
   {
     'id': 6,
     'producto': 'Moto 110',
+    'category':'italica',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
@@ -62,6 +71,7 @@ filterPost = '';
   {
     'id': 7,
     'producto': 'Computadora Portatil',
+    'category':'hp',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -70,6 +80,7 @@ filterPost = '';
   {
     'id': 8,
     'producto': 'Moto Semiautomatica',
+    'category':'italica',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -78,6 +89,7 @@ filterPost = '';
   {
     'id': 9,
     'producto': 'Computadora Portatil',
+    'category':'huawei',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -86,6 +98,7 @@ filterPost = '';
   {
     'id': 10,
     'producto': 'Camisa Rayas',
+    'category':'zara',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -94,6 +107,7 @@ filterPost = '';
   {
     'id': 11,
     'producto': 'Pantalon',
+    'category':'zara',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -102,6 +116,7 @@ filterPost = '';
   {
     'id': 12,
     'producto': 'Moto 110',
+    'category':'italica',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
@@ -110,6 +125,7 @@ filterPost = '';
   {
     'id': 13,
     'producto': 'Computadora Portatil',
+    'category':'hp',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -118,6 +134,7 @@ filterPost = '';
   {
     'id': 14,
     'producto': 'Moto Semiautomatica',
+    'category':'italica',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -126,6 +143,7 @@ filterPost = '';
   {
     'id': 15,
     'producto': 'Computadora Portatil',
+    'category':'huawei',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -134,6 +152,7 @@ filterPost = '';
   {
     'id': 16,
     'producto': 'Camisa Rayas',
+    'category':'zara',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -142,6 +161,7 @@ filterPost = '';
   {
     'id': 17,
     'producto': 'Pantalon',
+    'category':'zara',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -150,6 +170,7 @@ filterPost = '';
   {
     'id': 18,
     'producto': 'Moto 110',
+    'category':'italica',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
