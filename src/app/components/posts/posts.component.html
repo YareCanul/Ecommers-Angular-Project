@@ -113,17 +113,20 @@
         <div class="row">
           <div class="col">
             <div class="form-group">
-              <input type="text" class="form-control" name=" filterPost" placeholder="Search.."
+              <input type="text" class="form-control" name=" filterPost" placeholder="Buscar producto"
                 [(ngModel)]="filterPost">
             </div>
             <table class="table table-striped">
               <thead>
                 <tr>
                   <th>
-                    <select [(ngModel)]='filterPost' (ngModelChange)='($event)'>
-                      <option *ngFor='let post of post ' [value]="filterPost"></option>
-
+                    <select [(ngModel)]="selectedCategory">
+                      <option value="">Todas las categorías</option>
+                      <option value="electrónica">Electrónica</option>
+                      <option value="ropa">Ropa</option>
+                      <option value="hogar">Motos</option>
                     </select>
+                    
                    
                    
                     

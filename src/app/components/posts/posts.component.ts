@@ -12,6 +12,7 @@ export class PostsComponent implements OnInit {
 [x: string]: any;
  public dataFields:Object={groupBy:'Category'};
   constructor(){}
+  selectedCategory!: string;
 filterPost = '';
  post = [
   {
