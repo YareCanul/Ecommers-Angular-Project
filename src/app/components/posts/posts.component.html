@@ -120,12 +120,24 @@
               <thead>
                 <tr>
                   <th>
-                    <select [(ngModel)]="selectedCategory">
-                      <option value="">Todas las categorías</option>
-                      <option value="electrónica">Electrónica</option>
-                      <option value="ropa">Ropa</option>
-                      <option value="hogar">Motos</option>
-                    </select>
+                
+                  
+                  <select [(ngModel)]="selectedCategory">
+                  <option value="">All Categories</option>
+                  
+                  <option *ngFor="let category of getCategories()" [value]="category">{{category}}</option>
+                  </select>
+                    
+                  <ul>
+                    <li *ngFor="let product of filteredProducts">
+                    {{product.category}}
+                   
+                    </li>
+                  </ul>
+                  
+
+
+                    
                     
                    
                    
