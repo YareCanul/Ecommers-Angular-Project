@@ -37,7 +37,7 @@ filterPost = '';
     
     'id': 1,
     'producto': 'Computadora Portatil',
-    'category': 'Category 1',
+    'category': 'Electronica',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -46,7 +46,7 @@ filterPost = '';
   {
     'id': 2,
     'producto': 'Moto Semiautomatica',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -55,7 +55,7 @@ filterPost = '';
   {
     'id': 3,
     'producto': 'Computadora Portatil',
-    'category':'Category 1',
+    'category':'Electronica',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -64,7 +64,7 @@ filterPost = '';
   {
     'id': 4,
     'producto': 'Camisa Rayas',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -73,7 +73,7 @@ filterPost = '';
   {
     'id': 5,
     'producto': 'Pantalon',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -82,7 +82,7 @@ filterPost = '';
   {
     'id': 6,
     'producto': 'Moto 110',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
@@ -91,7 +91,7 @@ filterPost = '';
   {
     'id': 7,
     'producto': 'Computadora Portatil',
-    'category':'Category 1',
+    'category':'Electronica',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -100,7 +100,7 @@ filterPost = '';
   {
     'id': 8,
     'producto': 'Moto Semiautomatica',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -109,7 +109,7 @@ filterPost = '';
   {
     'id': 9,
     'producto': 'Computadora Portatil',
-    'category':'Category 1',
+    'category':'Electronica',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -118,7 +118,7 @@ filterPost = '';
   {
     'id': 10,
     'producto': 'Camisa Rayas',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -127,7 +127,7 @@ filterPost = '';
   {
     'id': 11,
     'producto': 'Pantalon',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -136,7 +136,7 @@ filterPost = '';
   {
     'id': 12,
     'producto': 'Moto 110',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
@@ -145,7 +145,7 @@ filterPost = '';
   {
     'id': 13,
     'producto': 'Computadora Portatil',
-    'category':'Category 1',
+    'category':'Electronica',
     'imagen': './assets/hp.jpg',
     'precio': '$23,000',
     'marca' : 'HP',
@@ -154,7 +154,7 @@ filterPost = '';
   {
     'id': 14,
     'producto': 'Moto Semiautomatica',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/italika.jpg',
     'precio': '$23,000',
     'marca' : 'Italica',
@@ -163,7 +163,7 @@ filterPost = '';
   {
     'id': 15,
     'producto': 'Computadora Portatil',
-    'category':'Category 1',
+    'category':'Electronica',
     'imagen': './assets/huawei.png',
     'precio': '$26,000',
     'marca' : 'Huawei',
@@ -172,7 +172,7 @@ filterPost = '';
   {
     'id': 16,
     'producto': 'Camisa Rayas',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/camisa.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -181,7 +181,7 @@ filterPost = '';
   {
     'id': 17,
     'producto': 'Pantalon',
-    'category':'Category 3',
+    'category':'Ropa y Calzado',
     'imagen': './assets/pantalon.jpg',
     'precio': '$1000',
     'marca' : 'Zara',
@@ -190,7 +190,7 @@ filterPost = '';
   {
     'id': 18,
     'producto': 'Moto 110',
-    'category':'Category 2',
+    'category':'Motocicletas',
     'imagen': './assets/negroI.jpg',
     'precio': '$20,000',
     'marca' : 'Italica',
